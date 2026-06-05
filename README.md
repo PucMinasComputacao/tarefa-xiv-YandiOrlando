@@ -32,14 +32,62 @@ Mapa com localização dos eventos: Especialmente útil se os eventos forem em d
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Yandi Orlando Santos Rivero
+- Matricula: 909840
 
 ## Prints do trabalho
+### Tela de cards: 
+![alt text](public/assets/img/image_pg_principal.png)
+### Tela de detalhes do produto: 
+![alt text](public/assets/img/image_pg_detalhes.png)
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+## Como executar
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+1. npm install -g json-server ( no terminal command prompt )
+2. entre na pasta raiz do site
+3. json-server --watch db/db.json --static public --port 3000
+4. Acesse no navegador: http://localhost:3000
+5. Clique em "Gráficos" no menu para ver os gráficos pedidos na atividade
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+## Estrutura do db.json
+ 
+### Coleções
+ 
+| Coleção | Descrição |
+|---|---|
+| `desenvolvedores` | Coleção principal com os desenvolvedores exibidos nos cards e na página de detalhes |
+ 
+### Exemplo de item
+ 
+```json
+{
+  "id": 1,
+  "nome": "Hideo Kojima",
+  "descricao": "Criador de experiências cinematográficas e narrativas complexas.",
+  "conteudo": "Hideo Kojima é um dos desenvolvedores mais influentes da indústria dos games...",
+  "pais": "Japão",
+  "destaque": true,
+  "imagem": "assets/img/kojima.png",
+  "obras": [
+    {
+      "nome": "Metal Gear Solid",
+      "descricao": "Franquia de espionagem tática revolucionária.",
+      "imagem": "assets/img/atracoes/metalgearsolid.jpg"
+    }
+  ]
+}
+```
+ 
+### Campos
+ 
+| Campo | Tipo | Descrição |
+|---|---|---|
+| `id` | number | Identificador único |
+| `nome` | string | Nome do desenvolvedor |
+| `descricao` | string | Texto curto exibido nos cards |
+| `conteudo` | string | Descrição completa exibida na página de detalhes |
+| `pais` | string | País de origem |
+| `destaque` | boolean | Se `true`, aparece no carousel da Home |
+| `imagem` | string | Caminho da imagem do desenvolvedor |
+| `obras` | array | Lista de obras com nome, descrição e imagem |
 

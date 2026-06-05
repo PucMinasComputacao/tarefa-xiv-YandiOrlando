@@ -1,0 +1,69 @@
+{
+  "desenvolvedores": [
+    {
+      "id": 1,
+      "nome": "Hideo Kojima",
+      "descricao": "Criador de experiências cinematográficas e narrativas complexas.",
+      "conteudo": "Hideo Kojima é um dos desenvolvedores mais influentes da indústria dos games, conhecido principalmente pelas franquias Metal Gear Solid e Death Stranding.",
+      "pais": "Japão",
+      "destaque": true,
+      "imagem": "assets/img/kojima.png",
+      "obras": [
+        { "nome": "Metal Gear Solid", "descricao": "Franquia de espionagem tática revolucionária.", "imagem": "assets/img/atracoes/metalgearsolid.jpg" },
+        { "nome": "Death Stranding", "descricao": "Jogo focado em conexões humanas em um mundo pós-apocalíptico.", "imagem": "assets/img/atracoes/deathstranding.jpg" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Gabe Newell",
+      "descricao": "Fundador da Valve e referência no mercado de PC Gaming.",
+      "conteudo": "Gabe Newell é o fundador da Valve Corporation, empresa responsável pela Steam e franquias icônicas do PC.",
+      "pais": "Estados Unidos",
+      "destaque": true,
+      "imagem": "assets/img/gaben.png",
+      "obras": [
+        { "nome": "Half-Life", "descricao": "FPS revolucionário com narrativa imersiva.", "imagem": "assets/img/atracoes/halflife.jpg" },
+        { "nome": "Portal", "descricao": "Puzzle inovador baseado em portais.", "imagem": "assets/img/atracoes/portal.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Hidetaka Miyazaki",
+      "descricao": "Diretor responsável pela popularização do gênero soulslike.",
+      "conteudo": "Hidetaka Miyazaki ganhou reconhecimento mundial por criar jogos desafiadores e atmosféricos como Dark Souls e Elden Ring.",
+      "pais": "Japão",
+      "destaque": true,
+      "imagem": "assets/img/miyazaki.png",
+      "obras": [
+        { "nome": "Dark Souls", "descricao": "RPG de ação conhecido por sua dificuldade e lore profunda.", "imagem": "assets/img/atracoes/darksouls.jpg" },
+        { "nome": "Elden Ring", "descricao": "Mundo aberto desenvolvido em parceria com George R. R. Martin.", "imagem": "assets/img/atracoes/eldenring.jpg" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Shigeru Miyamoto",
+      "descricao": "Uma das maiores lendas da Nintendo.",
+      "conteudo": "Shigeru Miyamoto criou algumas das franquias mais famosas da história dos videogames.",
+      "pais": "Japão",
+      "destaque": false,
+      "imagem": "assets/img/miyamoto.png",
+      "obras": [
+        { "nome": "Super Mario", "descricao": "Franquia mais famosa da Nintendo.", "imagem": "assets/img/atracoes/mario.jpg" },
+        { "nome": "The Legend of Zelda", "descricao": "Série lendária de aventura e exploração.", "imagem": "assets/img/atracoes/zelda.jpg" }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Toby Fox",
+      "descricao": "Desenvolvedor indie conhecido por jogos criativos e carismáticos.",
+      "conteudo": "Toby Fox ganhou notoriedade mundial após o sucesso de Undertale e Deltarune.",
+      "pais": "Estados Unidos",
+      "destaque": false,
+      "imagem": "assets/img/tobyfox.jpg",
+      "obras": [
+        { "nome": "Undertale", "descricao": "RPG indie famoso por sua narrativa única.", "imagem": "assets/img/atracoes/undertale.jpg" },
+        { "nome": "Deltarune", "descricao": "Sucessor espiritual de Undertale.", "imagem": "assets/img/atracoes/deltarune.jpg" }
+      ]
+    }
+  ]
+}
